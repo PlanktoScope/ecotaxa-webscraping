@@ -17,7 +17,7 @@ Ecotaxa is a web application dedicated to the visual exploration and management 
 
 ### Prerequisites
 
-- Required Python libraries: `requests`, `beautifulsoup4`, `selenium`, `json`, `csv`, `tqdm` (for web scraping), `pandas` (for data manipulation).
+- Required Python libraries: `requests`, `beautifulsoup4`, `selenium`, `json`, `csv`, `tqdm`, `os`.
 
 ### Usage
 
@@ -29,12 +29,10 @@ Ecotaxa is a web application dedicated to the visual exploration and management 
    ```bash
    cd Ecotaxa-webscraping
 
-3. Authentication: specify your own Ecotaxa credentials (@ and pwd)
-
-4. Webscarping using Ecotaxa API:
+3. Webscarping using Ecotaxa API (specify: project ID & own Ecotaxa credentials):
     ```bash
-    ecotaxa_api_v3.py
+    ecotaxa_api_history.py
 
-5. Webscarping using Selenium:
+4. Webscarping using Selenium (specify: project ID & own Ecotaxa credentials):
     ```bash
     ecotaxa_scraping_v3.py
