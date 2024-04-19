@@ -27,7 +27,7 @@ Ecotaxa is a web application dedicated to the visual exploration and management 
 
 2. Navigate to the cloned directory:
    ```bash
-   cd Ecotaxa-webscraping
+   cd ecotaxa-webscraping
 
 3. Webscarping using Ecotaxa API (specify: project ID & own Ecotaxa credentials):
     ```bash
