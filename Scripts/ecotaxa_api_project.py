@@ -55,8 +55,8 @@ login_url = f"{api_url}/login"
 
 # Indicate the Ecotaxa credentials
 credentials = {
-    "username": "wassim@fairscope.com", #Wassim Chakroun
-    "password": "6902.xhlzO!"
+    "username": "x", # email
+    "password": "1234" # password
 }
 
 # Make the login request
